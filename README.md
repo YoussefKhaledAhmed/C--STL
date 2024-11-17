@@ -2,12 +2,12 @@
 applying STLs with adding some custom methods in `custom-TL` namespace
 
 
-##Dependencies:
+## Dependencies:
 1. cmake
 2. make
 3. g++
 
-##To build:
+## To build:
 1. go to `build` directory.
 2. ```
    cmake ..
