@@ -55,10 +55,11 @@ namespace custom_TL{
         /* data */
     public:
         template <typename T>
-        void print_vector(const int * ptr_1 ,  std::vector<T , std::allocator<T>> * ptr_2 , const int * size){
+        void print_vector(const int * ptr_1 , std::vector<T , std::allocator<T>> * ptr_2 , const int * size){
 
-            std::vector<int>::iterator it = ptr_2->begin();
+            typename std::vector<T>::iterator it = ptr_2->begin();
 
+            /* 1. using the first argument: const int * ptr_1 */
             std::cout << "printing vector using int * ptr_1: \n";
 
             for(char i=0 ; i<(*size) ; i++){
@@ -66,14 +67,22 @@ namespace custom_TL{
             }
             std::cout<<"\n";
             
+
+            /* 2. using the second argument: std::vector<T , std::allocator<T>> * ptr_2 */
             std::cout << "printing vector using std::vector<T> * ptr_2: \n";
 
             for(int x : *ptr_2){
                 std::cout<< x <<"  ";
             }
             std::cout <<"\n";
+
+            /* using iterator: it */
+            std::cout << "printing vector using iterators over std::vector<T> * ptr_2: \n";
+
+            for(it ; it<ptr_2->end() ; it++){
+                std::cout<< *it <<"  ";
+            }
+            std::cout <<"\n";
         }
     };
-    
-
 }

@@ -7,8 +7,10 @@
 
 int main(){
     int test_choice = ARR_CHOICE;
-    std::cout << "which choice u want: ";
-
+    std::cout << "which choice u want: \n \
+    1.array  -> 0\n \
+    2.vector -> 1\n\
+    choice: ";
     std::cin >> test_choice;
     
     switch (test_choice)
