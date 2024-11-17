@@ -6,7 +6,7 @@ project(STL_study) # name of the project
 # C++ version
 set(CMAKE_CXX_STANDARD 17)
 
-include_directories(inc/ utils/)
+include_directories(inc/)
 
 set(source 
 src/main.cpp
