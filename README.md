@@ -16,11 +16,11 @@ applying STLs with adding some custom methods in `custom-TL` namespace
    make
    ```
 4.
-Ubuntu:
-```
-./STL_study
-```
-windows:
-```
-.\STL_study/exe
-```
+   a. Ubuntu:
+   ```
+   ./STL_study
+   ```
+   b. Windows:
+   ```
+   .\STL_study/exe
+   ```
