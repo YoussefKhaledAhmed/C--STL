@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/STL_study.dir/src/main.cpp.o CMakeFiles/STL_study.dir/src/arr_test.cpp.o CMakeFiles/STL_study.dir/src/vector_test.cpp.o -o STL_study.exe -Wl,--out-implib,libSTL_study.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

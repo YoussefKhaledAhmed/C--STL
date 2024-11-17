@@ -1,0 +1,3 @@
+/cygdrive/d/C++/2. Hazem Khaled/2. STL-OOP/STL/build/CMakeFiles/STL_study.dir
+/cygdrive/d/C++/2. Hazem Khaled/2. STL-OOP/STL/build/CMakeFiles/edit_cache.dir
+/cygdrive/d/C++/2. Hazem Khaled/2. STL-OOP/STL/build/CMakeFiles/rebuild_cache.dir
