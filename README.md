@@ -22,5 +22,5 @@ applying STLs with adding some custom methods in `custom-TL` namespace
    ```
    b. Windows:
    ```
-   .\STL_study/exe
+   .\STL_study.exe
    ```
